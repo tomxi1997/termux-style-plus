@@ -35,13 +35,15 @@ Follow the steps below -
 cd $HOME
 
 # Clone this repository (use `gh repo clone adi1090x/termux-style` if you want to use the GitHub CLI)- 
-git clone https://github.com/adi1090x/termux-style
+git clone https://github.com/tomxi1997/termux-style-plus
+
 
 # Change to termux-style dir -
 cd termux-style
 
-# To install it, run -
-./install
+# To install it, run -(注意这这个use-tmoe.sh会启用tmoe小键盘布局，##挺好用的推荐使用，如果不执行则使用#termux官方的小键盘布局。use-tmoe.sh是可选的)
+chmod +x use-tmoe.sh
+./install && ./use-tmoe.sh
 
 # And follow the steps, it'll be installed on your system.
 ```
